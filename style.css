@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: monospace;
+}
+
+body {
+  overflow: hidden;
+  background-color: #fcdeb9;
+  // background-color: #CCAC71;
+  cursor: grab;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
